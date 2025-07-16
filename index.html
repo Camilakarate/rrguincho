@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM VINDO A RR GUINCHO</title>
+    <style>
+        /* Estilos Gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a; /* Preto */
+            color: #f0f0f0; /* Texto claro */
+        }
+
+        h1, h2, h3 {
+            color: #FFD700; /* Amarelo */
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            margin: 10px 20px;
+        }
+
+        a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #333; /* Cinza escuro */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Seções */
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: #2a2a2a; /* Cinza médio */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Contato */
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contact p {
+            margin: 5px 0;
+        }
+
+        /* Botão Flutuante do WhatsApp */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366; /* Verde do WhatsApp */
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .whatsapp-float:hover {
+            background-color: #128c7e; /* Verde mais escuro */
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>BEM VINDO A RR GUINCHO</h1>
+    </header>
+
+    <!-- Nossa Missão -->
+    <section>
+        <h2>Nossa Missão</h2>
+        <p>Na RR Guincho, nossa missão é fornecer serviços de guincho e auto socorro de alta qualidade. Estamos comprometidos em ajudar nossos clientes a voltar à estrada com rapidez e segurança.</p>
+    </section>
+
+    <!-- Nossos Serviços -->
+    <section>
+        <h2>Nossos Serviços</h2>
+        <p>Oferecemos uma ampla gama de serviços, incluindo guincho para veículos em situações de emergência e assistência em estradas. Atendemos tanto clientes individuais quanto empresas, com serviços intermunicipais e interestaduais.</p>
+    </section>
+
+    <!-- Nossa Equipe -->
+    <section>
+        <h2>Nossa Equipe</h2>
+        <p>Contamos com uma equipe de profissionais treinados e experientes prontos para atender às suas necessidades. A segurança e a satisfação do cliente são nossas prioridades, e trabalhamos duro para garantir um serviço eficiente.</p>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact">
+        <h2>Contato</h2>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/5516997333457?text=Ol%C3%A1%2C%20preciso%20de%20um%20guincho!" >(16) 99733-3457</a></p>
+        <p><strong>E-mail:</strong> <a href="mailto:rrguincho24horas@hotmail.com">rrguincho24horas@hotmail.com</a></p>
+        <p><strong>Facebook:</strong> <a href="https://www.facebook.com/RRGUINCHOARARAQUARA" >RRGUINCHO ARARAQUARA</a></p>
+    </section>
+
+    <!-- Botão Flutuante do WhatsApp -->
+    <a href="https://wa.me/5516997333457?text=Ol%C3%A1%2C%20preciso%20de%20um%20guincho!" class="whatsapp-float" >
+        &#128222; <!-- Ícone de telefone -->
+    </a>
+</body>
+</html>
